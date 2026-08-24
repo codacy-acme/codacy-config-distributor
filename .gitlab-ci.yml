@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+deploy-config:
+  stage: deploy
+  image: alpine/git:latest
+  rules:
+    - when: manual
+  before_script:
+    - apk add --no-cache bash
+  script:
+    - chmod +x deploy-config.sh
+    - bash deploy-config.sh

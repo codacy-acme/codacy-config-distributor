@@ -1,0 +1,7 @@
+# List one target repository per line as "group/subgroup/project"
+# (the path portion of its GitLab URL, no leading slash, no .git suffix).
+# Blank lines and lines starting with # are ignored.
+#
+# Examples:
+# my-group/my-project
+# my-group/my-subgroup/another-project
